@@ -13,9 +13,9 @@ public class Fecha {
 	/**
 	 * Este método publico pide los parametros de la fecha y calucla si es valido o no.
 	 * 
-	 * @param dia
-	 * @param mes
-	 * @param anio 
+	 * @param dia Introduce el dia 
+	 * @param mes Introduce el mes
+	 * @param anio Introduce el año
 	 * @return Devuelve un valor booleano, true o false.
 	 */
 	public static boolean validarFecha(int anio, int mes, int dia) {

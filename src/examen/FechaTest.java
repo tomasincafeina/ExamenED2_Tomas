@@ -2,9 +2,11 @@ package examen;
 
 public class FechaTest {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+	Fecha miFecha = new Fecha();
+		
+		@Test
+		void Fecha CP1{
+			void valorEsperado = true;
+			void valorIntroducido = miFecha.Fecha(28, 2, 2020);
+		}
 }
